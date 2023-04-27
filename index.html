@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet" />
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Proyecto Web</title>
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav container">
+        <figure class="nav__figure">
+          <img src="./images/logo-bookmark.svg" alt="" class="nav__logo" />
+        </figure>
+
+        <div class="nav__hamburger">
+          <img src="images/icon-hamburger.svg" alt="" class="nav__button" />
+        </div>
+
+        <div class="nav__container">
+          <ul class="nav__list container">
+            <li class="nav__element">
+              <a href="#" class="nav__link">Features</a>
+            </li>
+            <li class="nav__element">
+              <a href="#" class="nav__link">Pricing</a>
+            </li>
+            <li class="nav__element">
+              <a href="#" class="nav__link">Contact</a>
+            </li>
+            <li class="nav__element">
+              <a href="#" class="nav__link nav__link--last">Login</a>
+            </li>
+          </ul>
+
+          <div class="nav__social">
+            <a href="#" class="nav__media">
+              <img src="images/icon-facebook.svg" alt="" class="nav__socialme" />
+            </a>
+
+            <a href="#" class="nav__media">
+              <img src="images/icon-twitter.svg" alt="" class="nav__socialme" />
+            </a>
+          </div>
+        </div>
+      </nav>
+
+      <section class="hero__main container">
+        <figure class="hero__figure">
+          <img src="images/illustration-hero.svg" alt="" class="hero__img" />
+        </figure>
+
+        <article class="hero__texts">
+          <h1 class="hero__title">A Simple Bookmark Manager</h1>
+          <p class="hero__paragraph">A clean and simple interface to organize your favorite websites. Open a new browser tab and see your sites load instantly. Try it for free.</p>
+
+          <div class="hero__buttons">
+            <a href="#" class="hero__button">Get it on Chrome</a>
+            <a href="#" class="hero__button hero__button--white">Get it on Firefox</a>
+          </div>
+        </article>
+      </section>
+    </header>
+
+    <main class="main">
+      <section class="features container">
+        <div class="features__content">
+          <h2 class="features__title">Features</h2>
+          <p class="features__paragraph">Our aim is to make it quick and easy for you to access your favorites websites.Your bookmarks sync between your device so you can access them on the go.</p>
+          <ul class="features__list">
+            <li class="features__element">
+              <a href="#" class="features__tab features__tab--active" data-article="1">Simple Bookmarkting</a>
+            </li>
+
+            <li class="features__element">
+              <a href="#" class="features__tab" data-article="2">Speedy Searching</a>
+            </li>
+
+            <li class="features__element">
+              <a href="#" class="features__tab" data-article="3">Easy Sharing</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="features__container">
+          <article class="features__article features__article--active">
+            <figure class="features__figure">
+              <img src="./images/illustration-features-tab-1.svg" alt="" class="features__img" />
+            </figure>
+
+            <div class="features__texts">
+              <h3 class="features__subtitle">Bookmark in one click</h3>
+
+              <p class="features__copy">Organize your bookmarks however your like. Our simple drag-and-drop interface gives you complete control over how you manage your favorite sites.</p>
+              <a href="#" class="features__cta">More Info</a>
+            </div>
+          </article>
+
+          <article class="features__article">
+            <figure class="features__figure">
+              <img src="./images/illustration-features-tab-2.svg" alt="" class="features__img" />
+            </figure>
+
+            <div class="features__texts">
+              <h3 class="features__subtitle">Intelligent search</h3>
+
+              <p class="features__copy">Organize your bookmarks however your like. Our simple drag-and-drop interface gives you complete control over how you manage your favorite sites.</p>
+              <a href="#" class="features__cta">More Info</a>
+            </div>
+          </article>
+
+          <article class="features__article">
+            <figure class="features__figure">
+              <img src="./images/illustration-features-tab-3.svg" alt="" class="features__img" />
+            </figure>
+
+            <div class="features__texts">
+              <h3 class="features__subtitle">Share your bookmarks</h3>
+
+              <p class="features__copy">Organize your bookmarks however your like. Our simple drag-and-drop interface gives you complete control over how you manage your favorite sites.</p>
+              <a href="#" class="features__cta">More Info</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="download container">
+        <h2 class="download__title">Download the extension</h2>
+        <p class="download__paragraph">We' ve got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritize</p>
+
+        <div class="download__container">
+          <article class="download__item">
+            <figure class="download__figure">
+              <img src="./images/logo-chrome.svg" alt="" class="download__img" />
+            </figure>
+
+            <h3 class="download__browser">Add to Chrome</h3>
+            <p class="download__version">Minimun version 62</p>
+            <a href="#" class="download__extension">Install Extension</a>
+          </article>
+
+          <article class="download__item">
+            <figure class="download__figure">
+              <img src="./images/logo-firefox.svg" alt="" class="download__img" />
+            </figure>
+
+            <h3 class="download__browser">Add to Firefox</h3>
+            <p class="download__version">Minimun version 55</p>
+            <a href="#" class="download__extension">Add & Install extension</a>
+          </article>
+
+          <article class="download__item">
+            <figure class="download__figure">
+              <img src="./images/logo-opera.svg" alt="" class="download__img" />
+            </figure>
+
+            <h3 class="download__browser">Add to Opera</h3>
+            <p class="download__version">Minimun version 46</p>
+            <a href="#" class="download__extension">Install Extension</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="article container">
+        <h2 class="article__title">Frequently Asked Questions</h2>
+        <p class="article__paragraph">Here are some of our FAQs. If you have any other questions you'd like answered please feel free to email us.</p>
+
+        <div class="article__container">
+          <h3 class="article__questions">
+            What is Bookmark?
+            <img src="images/icon-arrow.svg" alt="" class="article__arrow" />
+          </h3>
+          <article class="article__content">
+            <div class="article__show">
+              <p class="article__anwser">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem veniam molestiae totam possimus cum quaerat?</p>
+            </div>
+          </article>
+
+          <h3 class="article__questions">
+            How can I request a new browser?
+            <img src="images/icon-arrow.svg" alt="" class="article__arrow" />
+          </h3>
+
+          <article class="article__content">
+            <div class="article__show">
+              <p class="article__anwser">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem veniam molestiae totam possimus cum quaerat?</p>
+            </div>
+          </article>
+
+          <h3 class="article__questions">
+            Is there a mobile app?
+            <img src="images/icon-arrow.svg" alt="" class="article__arrow" />
+          </h3>
+
+          <article class="article__content">
+            <div class="article__show">
+              <p class="article__anwser">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem veniam molestiae totam possimus cum quaerat?</p>
+            </div>
+          </article>
+
+          <h3 class="article__questions">
+            What about other Chromium browser?
+            <img src="images/icon-arrow.svg" alt="" class="article__arrow" />
+          </h3>
+
+          <article class="article__content">
+            <div class="article__show">
+              <p class="article__anwser">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem veniam molestiae totam possimus cum quaerat?</p>
+            </div>
+          </article>
+        </div>
+
+        <a href="#" class="article__cta">More info</a>
+      </section>
+
+      <section class="joined">
+        <div class="joined__container container">
+          <p class="joined__paragraph">35,000+ already joined</p>
+          <h2 class="joined__title">Stay up-to-date with what we're doing</h2>
+
+          <form class="joined__form">
+            <input type="email" placeholder="Enter your Email Addres" class="joined__input" />
+
+            <input type="submit" value="Contact Us" class="joined__submit" />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__container container">
+        <figure class="footer__figure">
+          <img src="images/logo-bookmark-footer.svg" alt="" class="footer__logo" />
+        </figure>
+
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="#" class="footer__link">Features</a>
+          </li>
+
+          <li class="footer__item">
+            <a href="#" class="footer__link">Pricing</a>
+          </li>
+
+          <li class="footer__item">
+            <a href="#" class="footer__link">Contact</a>
+          </li>
+        </ul>
+        <div class="footer__media">
+          <a href="#" class="footer__social">
+            <img src="images/icon-facebook.svg" alt="" class="footer__icon" />
+          </a>
+          <a href="#" class="footer__social">
+            <img src="images/icon-twitter.svg" alt="" class="footer__icon" />
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/5800bc9ea1.js" crossorigin="anonymous"></script>
+    <!-- MI JS -->
+    <script src="/js/main.js"></script>
+  </body>
+</html>
