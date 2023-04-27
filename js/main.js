@@ -1,7 +1,6 @@
 const navButton = document.querySelector(".nav__button");
 const navMenu = document.querySelector(".nav__container");
 const tabButtons = document.querySelectorAll(".features__tab");
-
 const clickQuestions = document.querySelectorAll(".article__questions");
 
 navButton.addEventListener("click", () => {
